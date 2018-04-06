@@ -1,0 +1,15 @@
+.Board {
+  height: 330px;
+  width: 330px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.Box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 5px;
+  float: left;
+}
