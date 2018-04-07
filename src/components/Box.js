@@ -24,12 +24,13 @@ class Box extends Component {
   }
 
   handleClick() {
-    console.log(this.props.currentPlayer)
+    if(!this.state.value){
     this.setState({
       value: this.props.currentPlayer
     })
     this.props.changePlayer()
   }
+}
 }
 
 export default Box;

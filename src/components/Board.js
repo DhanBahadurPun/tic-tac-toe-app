@@ -19,7 +19,7 @@ class Board extends Component {
         {
           [...Array(9)].map((val, index) => {
             return (
-              <Box value = {index} 
+              <Box value = {""} 
                    key={index}
                    currentPlayer={this.state.currentPlayer}
                    changePlayer={this.changeCurrentPlayer}
